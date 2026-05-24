@@ -1,7 +1,7 @@
 variable "compartment_id" {
   type        = string
   description = "The compartment to create the resources in"
-  default     = "ocid1.user.oc1..aaaaaaaa5v32pgayaszlsb25y5wkfhriwucijfy6and2kod3j4vydzgl6m3a"
+  default     = "ocid1.tenancy.oc1..aaaaaaaai57sijr7g2fia5fvunkrjh62u7rc4dvxxjswr7qka3pdjj2qkp4a"
 }
 variable "region" {
   type        = string
@@ -21,7 +21,7 @@ variable "bastion_allowed_ips" {
 variable "ad_list" {
   type        = list
   description = "List of length 2 with the names of availability regions to use"
-  default     = ["IYfK:SA-SAOPAULO-1-AD-1", "IYfK:SA-SAOPAULO-1-AD-1"]
+  default     = ["evwi:SA-SAOPAULO-1-AD-1", "evwi:SA-SAOPAULO-1-AD-1"]
 }
 variable "git_token" {
   description = "Git PAT"

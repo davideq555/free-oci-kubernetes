@@ -17,6 +17,6 @@ spec:
       name: sops-gpg
   postBuild:
     substitute:
-      grafana_domain: "YOUR_DOMAIN"
-      grafana_url: "https://YOUR_DOMAIN/grafana"
-      oci_region: "eu-frankfurt-1"
+      grafana_domain: "grafana.deqa.com.ar"
+      grafana_url: "https://grafana.deqa.com.ar/grafana"
+      oci_region: "sa-saopaulo-1"

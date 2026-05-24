@@ -38,7 +38,7 @@ spec:
     policy: sync
     registry: txt
     domainFilters:
-      - YOUR-DOMAIN
+      - deqa.com.ar
     txtOwnerId: oci-infra
     txtPrefix: _externaldns.
     interval: 1m
